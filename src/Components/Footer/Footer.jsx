@@ -42,7 +42,6 @@ export default function Footer() {
               className="mt-6 border dark:bg-[#181a2a] border-[#DCDDDF] dark:border-[#3b3c4a] w-full h-12 pl-4 pr-10 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-
           <button className="w-[320px] cursor-pointer h-[48px] mt-2 rounded-md px-3 py-5 bg-[#4B6BFB] text-white pt-3 transition-all duration-300 hover:bg-[#3A54D6] dark:hover:bg-[#6B8BFF] hover:scale-105">
             Subscribe
           </button>

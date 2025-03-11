@@ -6,7 +6,6 @@ export default function Cards({ showTitle = true }) {
   return (
     <div className="Container pt-20">
       {showTitle && <h1 className="text-2xl font-bold">Latest Post</h1>}
-
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-8">
         {CardData.map((item) => (
           <div
@@ -16,7 +15,6 @@ export default function Cards({ showTitle = true }) {
             <Link href={`/autor-page/${item.id}`}>
               <Image src={item.img} alt="Foto" width={360} height={240} className="rounded-lg" />
             </Link>
-
             <button className="text-[#4B6BFB] font-medium bg-[rgba(75,107,251,0.05)] px-2.5 py-1 rounded-md mt-6 transition-colors duration-300 hover:bg-[#4B6BFB] hover:text-white">
               Technology
             </button>
