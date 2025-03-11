@@ -7,14 +7,14 @@ export default function Navbar() {
     <div className="Container flex justify-between items-center py-8">
       <Link href={"/"}>
         <Image
-          src="/icon/Navbar/Logo2.svg"
+          src="/Icon/Navbar/Logo2.svg"
           alt="Logo"
           width={158}
           height={36}
           className="dark:block hidden transition-transform duration-300 hover:scale-110"
         />
         <Image
-          src="/icon/Navbar/Logo.svg"
+          src="/Icon/Navbar/Logo.svg"
           alt="NavbarLogo"
           width={158}
           height={36}
@@ -50,7 +50,7 @@ export default function Navbar() {
             className="bg-[#F4F4F5] dark:bg-[#232434] p-2 text-[#A1A1AA] px-5 pr-7 focus:outline-none rounded-md"
           />
           <Image
-            src="/icon/Navbar/search-outline.svg"
+            src="/Icon/Navbar/search-outline.svg"
             alt="SearchIcon"
             className="absolute right-3 top-1/2 transform -translate-y-1/2 transition-transform duration-300 hover:scale-110"
             width={16}
