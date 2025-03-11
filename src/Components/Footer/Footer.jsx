@@ -43,7 +43,7 @@ export default function Footer() {
             />
           </div>
 
-          <button className="w-[320px] h-[48px] mt-2 rounded-md px-3 py-5 bg-[#4B6BFB] text-white pt-3 transition-all duration-300 hover:bg-[#3A54D6] dark:hover:bg-[#6B8BFF] hover:scale-105">
+          <button className="w-[320px] cursor-pointer h-[48px] mt-2 rounded-md px-3 py-5 bg-[#4B6BFB] text-white pt-3 transition-all duration-300 hover:bg-[#3A54D6] dark:hover:bg-[#6B8BFF] hover:scale-105">
             Subscribe
           </button>
         </div>
